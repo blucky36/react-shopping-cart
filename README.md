@@ -1,6 +1,6 @@
 # Deployed Website
 
-[CLICK ME](fumbling-mark.surge.sh)
+fumbling-mark.surge.sh <-- lives here
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
