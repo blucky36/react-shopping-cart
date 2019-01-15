@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import App from "../App.js"
 
 class AddItem extends Component {
   constructor(props) {
@@ -28,13 +27,13 @@ class AddItem extends Component {
         <div className = "col-md-6">
           <div className = "form-group">
             <form onSubmit={this.onSubmit}>
-              <label for = "quantityy">Quantity:</label>
+              <label>Quantity:</label>
               <input id = "quantityy" className="form-control" type="number" min="1" name="quantity" onChange={this.onChange} value={this.state.quantity}/>
-              <label for = "productIdd">Item:</label>
+              <label>Item:</label>
               <select id = "productIdd" className = "form-control" name="productID" onChange={this.onChange}>
                 {this.props.products.map((product, i) => <option key={i} value={product.id}>{product.name}</option>)}
               </select>
-              <input type="submit" class = "btn btn-success" value="Submit" />
+              <input type="submit" className = "btn btn-success" value="Submit" />
             </form>
           </div>
         </div>

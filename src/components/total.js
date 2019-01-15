@@ -1,5 +1,4 @@
 import React from "react"
-import App from "../App.js"
 
 const formatValue = (cil) => {
   let total = 0

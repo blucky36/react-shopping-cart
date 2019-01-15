@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import CartHeader from "./components/cartHeader.js"
 import CartFooter from "./components/cartFooter.js"
 import CartItems from "./components/cartItems.js"
-import CartItem from "./components/cartItem.js"
 import AddItem from "./components/addItem.js"
 import Total from "./components/total.js"
 

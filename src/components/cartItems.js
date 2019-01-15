@@ -13,7 +13,7 @@ const CartItems = (props) => {
             <div className="col-md-2">Quantity</div>
           </div>
         </div>
-        {props.items.map((e)=><CartItem product = {e.product.name} price = {e.product.priceInCents} quantity = {e.quantity}/>)}
+        {props.items.map((e,i)=><CartItem key = {`${i}`}product = {e.product.name} price = {e.product.priceInCents} quantity = {e.quantity}/>)}
       </div>
     </div>
   )
